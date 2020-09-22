@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starlight_Minelayer", "Starlight_Minelayer.csproj", "{1DAB7F7E-F497-4751-BFD8-9601B6A8E486}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DAB7F7E-F497-4751-BFD8-9601B6A8E486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DAB7F7E-F497-4751-BFD8-9601B6A8E486}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DAB7F7E-F497-4751-BFD8-9601B6A8E486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DAB7F7E-F497-4751-BFD8-9601B6A8E486}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F6FBC8B-A6DD-4AD4-989D-7A39C9E8C56E}
+	EndGlobalSection
+EndGlobal

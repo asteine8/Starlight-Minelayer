@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "nlfa8ftUGymlYmVhRFff8TCvIvZ85XqF5qJIQm0Mcf4I31CXFTcRzmmIwO0/7f5jgTMVrhbqj+H7qoUvk0g5lw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Missu\\AppData\\Roaming\\SpaceEngineers\\Mods\\Starlight Minelayer\\Starlight_Minelayer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Missu\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Missu\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

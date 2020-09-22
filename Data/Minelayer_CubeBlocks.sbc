@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+			<Id>
+				<TypeId>ConveyorSorter</TypeId>
+				<SubtypeId>Minelayer_CubeBlock</SubtypeId>
+			</Id>
+			<DisplayName>Starlight Minelayer</DisplayName>
+			<Description>Lays Mines but not mineturtles :(</Description>
+			<GuiVisible>true</GuiVisible>
+
+			<Icon>Textures\GUI\Icons\minelayer_icon.dds</Icon>
+
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="3"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Minelayer_Large.mwm</Model>
+			<Components>
+				<Component Count="150" Subtype="SteelPlate"/>
+				<Component Count="100" Subtype="Construction"/>
+				<Component Count="25" Subtype="LargeTube" />
+				<Component Count="50" Subtype="Motor" />
+				<Component Count="35" Subtype="Computer"/>
+				<Component Count="40" Subtype="MetalGrid" />
+				<Component Count="25" Subtype="Construction"/>
+				<Component Count="100" Subtype="SteelPlate"/>
+			</Components>
+			<CriticalComponent Index="1" Subtype="Construction"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="0.29" EndX="3.0" EndY="0.71"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="0.29" EndX="3.0" EndY="0.71"/>
+			</MountPoints>
+
+			<WeaponDefinitionId Subtype="Minelayer_Weapon" />
+			<ResourceSinkGroup>Defense</ResourceSinkGroup>
+			<PCU>250</PCU>
+		</Definition>
+	</CubeBlocks>
+</Definitions>
